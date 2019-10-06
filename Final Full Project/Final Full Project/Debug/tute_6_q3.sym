@@ -1,0 +1,320 @@
+00000000 R __flash_start
+00000000 A __RAM_VECTOR_TABLE_SIZE_BYTES
+00000000 A __sram_u_size
+00000000 R __VECTOR_RAM
+00000000 R __vector_table
+00000000 R __VECTOR_TABLE
+00000000 A M_VECTOR_RAM_SIZE
+000000f8 R __VECTOR_TABLE_END
+00000400 R securityInfo
+00000450 T _mainCRTStartup
+00000450 T _start
+000004c4 T Reset_Handler
+00000508 T __aeabi_drsub
+00000510 T __aeabi_dsub
+00000510 T __subdf3
+00000514 T __adddf3
+00000514 T __aeabi_dadd
+0000078c T __aeabi_ui2d
+0000078c T __floatunsidf
+000007ac T __aeabi_i2d
+000007ac T __floatsidf
+000007d0 T __aeabi_f2d
+000007d0 T __extendsfdf2
+00000814 T __aeabi_ul2d
+00000814 T __floatundidf
+00000824 T __aeabi_l2d
+00000824 T __floatdidf
+00000880 T __aeabi_dmul
+00000880 T __muldf3
+00000ad4 T __aeabi_ddiv
+00000ad4 T __divdf3
+00000ca4 T __aeabi_d2uiz
+00000ca4 T __fixunsdfsi
+00000ce4 T __aeabi_d2f
+00000ce4 T __truncdfsf2
+00000d84 T __aeabi_frsub
+00000d8c T __aeabi_fsub
+00000d8c T __subsf3
+00000d90 T __addsf3
+00000d90 T __aeabi_fadd
+00000ef0 T __aeabi_ui2f
+00000ef0 T __floatunsisf
+00000ef8 T __aeabi_i2f
+00000ef8 T __floatsisf
+00000f14 T __aeabi_ul2f
+00000f14 T __floatundisf
+00000f24 T __aeabi_l2f
+00000f24 T __floatdisf
+00000fa0 T __aeabi_fmul
+00000fa0 T __mulsf3
+00001000 A __heap_size
+00001000 A __heap_size__
+00001000 A __stack_size
+00001000 A __stack_size__
+00001108 T __aeabi_fdiv
+00001108 T __divsf3
+00001240 T __aeabi_f2ulz
+00001240 T __fixunssfdi
+0000130c W USBDM::SimInfo::getUart0Clock()
+00001320 W USBDM::Uart0Info::enableClock()
+00001348 W USBDM::Uart0Info::getInputClockFrequency()
+00001358 W USBDM::Uart0Info::initPCRs(unsigned long)
+00001384 W USBDM::FormattingSettings::FormattingSettings()
+00001384 W USBDM::FormattingSettings::FormattingSettings()
+000013cc W USBDM::FormattedIO::FormattedIO()
+000013cc W USBDM::FormattedIO::FormattedIO()
+00001400 W USBDM::FormattedIO::~FormattedIO()
+00001400 W USBDM::FormattedIO::~FormattedIO()
+00001420 W USBDM::FormattedIO::~FormattedIO()
+00001440 W USBDM::FormattedIO::peek()
+000014c8 W USBDM::FormattedIO::writeChar(char)
+000014ec W USBDM::FormattedIO::readChar()
+00001516 W USBDM::FormattedIO::write(char)
+00001536 W USBDM::FormattedIO::writeln()
+00001550 W USBDM::FormattedIO::write(char const*)
+0000157e W USBDM::FormattedIO::writeln(char const*)
+000015a0 W USBDM::FormattedIO::setEcho(USBDM::EchoMode)
+000015be W USBDM::Uart::_isCharAvailable()
+000015e6 W USBDM::Uart::_readChar()
+00001628 W USBDM::Uart::_writeChar(char)
+00001670 W USBDM::Uart::Uart(UART_Type volatile&)
+00001670 W USBDM::Uart::Uart(UART_Type volatile&)
+0000169c W USBDM::Uart::~Uart()
+0000169c W USBDM::Uart::~Uart()
+000016c0 W USBDM::Uart::~Uart()
+000016e0 W USBDM::Uart::setBaudRate_brfa(unsigned long, unsigned long)
+0000176c W USBDM::Uart::flushOutput()
+0000179a W USBDM::Uart::flushInput()
+000017bc T console_initialise
+000017e0 T USBDM::log_error(char const*)
+000017fc W USBDM::Uart_brfa_T<USBDM::Uart0Info>::Uart_brfa_T(unsigned int)
+000017fc W USBDM::Uart_brfa_T<USBDM::Uart0Info>::Uart_brfa_T(unsigned int)
+0000182c W USBDM::Uart_brfa_T<USBDM::Uart0Info>::setBaudRate(unsigned int)
+00001850 W USBDM::Uart_T<USBDM::Uart0Info>::Uart_T()
+00001850 W USBDM::Uart_T<USBDM::Uart0Info>::Uart_T()
+00001890 W USBDM::Uart_T<USBDM::Uart0Info>::~Uart_T()
+00001890 W USBDM::Uart_T<USBDM::Uart0Info>::~Uart_T()
+000018b4 W USBDM::Uart_T<USBDM::Uart0Info>::~Uart_T()
+000018d4 W USBDM::Uart_T<USBDM::Uart0Info>::setNvicInterruptPriority(unsigned long)
+00001948 W USBDM::Uart_brfa_T<USBDM::Uart0Info>::~Uart_brfa_T()
+00001948 W USBDM::Uart_brfa_T<USBDM::Uart0Info>::~Uart_brfa_T()
+0000196c W USBDM::Uart_brfa_T<USBDM::Uart0Info>::~Uart_brfa_T()
+0000198c W USBDM::Uart_T<USBDM::Uart0Info>::clearError()
+00001a3c W USBDM::Osc0Info::getOscClock()
+00001a50 W USBDM::Osc0Info::initPCRs(unsigned long)
+00001a78 W USBDM::RtcInfo::enableClock()
+00001aa0 W USBDM::RtcInfo::getInternalClock()
+00001ac4 W USBDM::RtcInfo::initPCRs(unsigned long)
+00001ad8 W USBDM::McgInfo::getErcClock()
+00001b0c W USBDM::McgInfo::getInternalIrcClock()
+00001b50 W USBDM::SimInfo::initRegs()
+00001bc0 W USBDM::Mcg::setSysDividers(unsigned long)
+00001be4 W USBDM::Mcg::enableNvicInterrupts()
+00001bf4 W USBDM::Mcg::initialise()
+00001c00 T USBDM::Mcg::clockTransition(USBDM::McgInfo::ClockInfo const&)
+00001f00 T USBDM::Mcg::SystemCoreClockUpdate()
+0000215c T USBDM::Mcg::defaultConfigure()
+00002184 T clock_initialise
+00002198 W USBDM::OscBase_T<USBDM::Osc0Info>::initialise()
+000021a4 W USBDM::RtcBase_T<USBDM::RtcInfo>::initialise()
+000021b0 W USBDM::OscBase_T<USBDM::Osc0Info>::defaultConfigure()
+000021c8 W USBDM::RtcBase_T<USBDM::RtcInfo>::defaultConfigure()
+00002284 W USBDM::RtcBase_T<USBDM::RtcInfo>::rtc()
+00002298 W _exit
+000022a4 W __cxa_pure_virtual
+000022ae W rtc_initialise
+000022ba W software_init_hook
+000022c8 T SystemInitLowLevel
+0000230c T SystemInit
+00002324 W USBDM::PmcBase_T<USBDM::PmcInfo>::releasePins()
+00002364 W USBDM::FtmBase::unhandledCallback()
+00002372 W USBDM::FormattedIO::setPadding(USBDM::Padding)
+00002390 W USBDM::FormattedIO::setWidth(unsigned int)
+000023b0 W USBDM::FormattedIO::ultoa(char*, unsigned long, USBDM::Radix, USBDM::Padding, int, bool)
+00002520 W USBDM::FormattedIO::write(unsigned long, USBDM::Radix)
+00002562 W USBDM::FormattedIO::writeln(unsigned long, USBDM::Radix)
+0000258c W USBDM::FormattedIO::writeln(void const*, USBDM::Radix)
+000025b0 W USBDM::FormattedIO::writeln(unsigned int, USBDM::Radix)
+000025d4 W ADC0_IRQHandler
+000025d4 W BusFault_Handler
+000025d4 W CMP0_IRQHandler
+000025d4 W CMP1_IRQHandler
+000025d4 W CMT_IRQHandler
+000025d4 W DebugMon_Handler
+000025d4 T Default_Handler
+000025d4 W DMA_Error_IRQHandler
+000025d4 W DMA0_IRQHandler
+000025d4 W DMA1_IRQHandler
+000025d4 W DMA2_IRQHandler
+000025d4 W DMA3_IRQHandler
+000025d4 W FTF_Command_IRQHandler
+000025d4 W FTF_ReadCollision_IRQHandler
+000025d4 W I2C0_IRQHandler
+000025d4 W I2S0_Rx_IRQHandler
+000025d4 W I2S0_Tx_IRQHandler
+000025d4 W LLWU_IRQHandler
+000025d4 W LPTMR0_IRQHandler
+000025d4 W MCG_IRQHandler
+000025d4 W MemManage_Handler
+000025d4 W NMI_Handler
+000025d4 W PDB0_IRQHandler
+000025d4 W PendSV_Handler
+000025d4 W PMC_IRQHandler
+000025d4 W PORTA_IRQHandler
+000025d4 W PORTB_IRQHandler
+000025d4 W PORTC_IRQHandler
+000025d4 W PORTD_IRQHandler
+000025d4 W PORTE_IRQHandler
+000025d4 W RTC_Alarm_IRQHandler
+000025d4 W RTC_Seconds_IRQHandler
+000025d4 W SPI0_IRQHandler
+000025d4 W SVC_Handler
+000025d4 W SWI_IRQHandler
+000025d4 W SysTick_Handler
+000025d4 W TSI0_IRQHandler
+000025d4 W UART0_Error_IRQHandler
+000025d4 W UART0_Lon_IRQHandler
+000025d4 W UART0_RxTx_IRQHandler
+000025d4 W UART1_Error_IRQHandler
+000025d4 W UART1_RxTx_IRQHandler
+000025d4 W UART2_Error_IRQHandler
+000025d4 W UART2_RxTx_IRQHandler
+000025d4 W UsageFault_Handler
+000025d4 W USB0_IRQHandler
+000025d4 W USBDCD0_IRQHandler
+000025d4 W WDOG_IRQHandler
+000025f4 W HardFault_Handler
+0000260c T _HardFault_Handler
+000027bc W USBDM::FtmBase_T<USBDM::Ftm0Info>::irqHandler()
+00002854 W USBDM::FtmBase_T<USBDM::Ftm1Info>::irqHandler()
+000028ec W USBDM::PitBase_T<USBDM::PitInfo>::Channel<0>::irqHandler()
+0000290c W USBDM::PitBase_T<USBDM::PitInfo>::Channel<1>::irqHandler()
+0000292c W USBDM::PitBase_T<USBDM::PitInfo>::Channel<2>::irqHandler()
+0000294c W USBDM::PitBase_T<USBDM::PitInfo>::Channel<3>::irqHandler()
+0000296c W USBDM::PitBase_T<USBDM::PitInfo>::unhandledCallback()
+000029bc W USBDM::_usbdm_assert(char const*)
+00002a08 W USBDM::Ftm1Info::getInputClockFrequency()
+00002a48 W USBDM::Ftm1Info::enableClock()
+00002a70 W USBDM::FtmBase::unhandledChannelCallback(unsigned char)
+00002ab4 T generatorInitialise()
+00002af8 T generatorSetFrequency(unsigned int)
+00002b98 W USBDM::FtmBase_T<USBDM::Ftm1Info>::Channel<1>::setDeltaEventTime(unsigned short)
+00002bb4 W USBDM::FtmBase_T<USBDM::Ftm1Info>::configure(USBDM::FtmMode, USBDM::FtmClockSource, USBDM::FtmPrescale)
+00002c24 W USBDM::FtmBase_T<USBDM::Ftm1Info>::enableNvicInterrupts(unsigned long)
+00002c3e W USBDM::FtmBase_T<USBDM::Ftm1Info>::Channel<1>::setOutput(USBDM::PinDriveStrength, USBDM::PinDriveMode, USBDM::PinSlewRate)
+00002c7c W USBDM::FtmBase_T<USBDM::Ftm1Info>::Channel<1>::setRelativeEventTime(unsigned short)
+00002c98 W USBDM::FtmBase_T<USBDM::Ftm1Info>::Channel<1>::setChannelCallback(void (*)(unsigned char))
+00002cb0 W USBDM::FtmBase_T<USBDM::Ftm1Info>::Channel<1>::configure(USBDM::FtmChMode, USBDM::FtmChannelAction)
+00002cdc W USBDM::FtmBase_T<USBDM::Ftm1Info>::setPeriod(float, bool)
+00002dd0 W USBDM::FtmBase_T<USBDM::Ftm1Info>::setMaximumInterval(float, bool)
+00002dfc W USBDM::FtmBase_T<USBDM::Ftm1Info>::convertSecondsToTicks(float)
+00002e6c W USBDM::FtmBase_T<USBDM::Ftm1Info>::setDeltaEventTime(unsigned short, int)
+00002ea0 W USBDM::FtmBase_T<USBDM::Ftm1Info>::enable()
+00002eb0 W USBDM::FtmBase::CheckPinMapping<USBDM::Ftm1Info, 1>::check()
+00002ebc W USBDM::Pcr_T<512ul, 1074040832ul, (IRQn_Type)40, 13, 768ul>::setPCR(unsigned long)
+00002ee0 W USBDM::FtmBase_T<USBDM::Ftm1Info>::setRelativeEventTime(unsigned short, int)
+00002f10 W USBDM::FtmBase_T<USBDM::Ftm1Info>::setChannelCallback(void (*)(unsigned char))
+00002f68 W USBDM::FtmBase_T<USBDM::Ftm1Info>::setPeriodInTicks(unsigned long, bool)
+0000300c W USBDM::FtmBase_T<USBDM::Ftm1Info>::getTickFrequencyAsFloat()
+00003050 W USBDM::Pcr_T<512ul, 1074040832ul, (IRQn_Type)40, 13, 768ul>::pcrReg()
+00003098 W USBDM::FormattedIO::convertDigit(int, USBDM::Radix)
+000030f4 W USBDM::FormattedIO::pushBack(char)
+00003112 W USBDM::FormattedIO::write(unsigned int, USBDM::Radix)
+00003136 W USBDM::FormattedIO::readln()
+00003162 W USBDM::FormattedIO::read(unsigned long&, USBDM::Radix)
+0000321e W USBDM::FormattedIO::read(unsigned int&, USBDM::Radix)
+0000324a W USBDM::FormattedIO::readln(unsigned int&, USBDM::Radix)
+00003274 T main
+0000331c W USBDM::GpioBase_T<2048ul, 1074049024ul, (IRQn_Type)42, 1074786432ul, 10u, (USBDM::Polarity)0>::setOutput(unsigned long)
+00003344 W USBDM::GpioBase_T<2048ul, 1074049024ul, (IRQn_Type)42, 1074786432ul, 10u, (USBDM::Polarity)0>::set()
+00003358 W USBDM::GpioBase_T<2048ul, 1074049024ul, (IRQn_Type)42, 1074786432ul, 10u, (USBDM::Polarity)0>::setInactive()
+00003364 W USBDM::GpioBase_T<2048ul, 1074049024ul, (IRQn_Type)42, 1074786432ul, 10u, (USBDM::Polarity)0>::setOut()
+0000337a W USBDM::Pcr_T<2048ul, 1074049024ul, (IRQn_Type)42, 10, 256ul>::setPCR(unsigned long)
+0000339c W USBDM::GpioBase_T<2048ul, 1074049024ul, (IRQn_Type)42, 1074786432ul, 10u, (USBDM::Polarity)0>::gpio()
+000033b0 W USBDM::Pcr_T<2048ul, 1074049024ul, (IRQn_Type)42, 10, 256ul>::pcrReg()
+00003484 T USBDM::getErrorMessage(USBDM::ErrorCode)
+000034b0 T USBDM::checkError()
+00003500 T cpp_initialise
+0000350c T USBDM::enableNvicInterrupt(IRQn_Type, unsigned long)
+00003540 T __aeabi_atexit
+0000354a T operator delete(void*, unsigned int)
+0000354e T operator delete(void*)
+00003554 T round
+000035e4 T rintf
+0000368c T __cxa_atexit
+000036a8 T exit
+000036d0 T __libc_init_array
+00003718 T isspace
+00003728 T free
+00003738 T memset
+00003748 T _free_r
+000037e4 T __malloc_lock
+000037f0 T __malloc_unlock
+000037fc T __retarget_lock_acquire_recursive
+000037fe T __retarget_lock_release_recursive
+00003ccc V vtable for USBDM::Uart_brfa_T<USBDM::Uart0Info>
+00003cf8 V vtable for USBDM::Uart_T<USBDM::Uart0Info>
+00003d24 V vtable for USBDM::Uart
+00003d50 V vtable for USBDM::FormattedIO
+00003d74 T USBDM::Mcg::clockInfo
+00003df8 T _global_impure_ptr
+00003dfc T _ctype_
+00003f00 T _init
+00003f0c T _fini
+00003f18 T __CTOR_END__
+00003f18 T __CTOR_LIST__
+00003f18 T __DTOR_END__
+00003f18 T __DTOR_LIST__
+00003f30 T __exidx_start
+00003f38 R __DATA_ROM
+00003f38 R __etext
+00003f38 R __exidx_end
+00004008 A __DATA_END
+1fffe000 D __DATA_RAM
+1fffe000 D __data_start__
+1fffe000 D __dso_handle
+1fffe000 ? __interrupts_ram_end__
+1fffe000 ? __interrupts_ram_start__
+1fffe000 ? __VECTOR_RAM__
+1fffe000 ? _mtb_end
+1fffe000 ? _mtb_start
+1fffe004 V SystemCoreClock
+1fffe008 V SystemBusClock
+1fffe00c V USBDM::FtmBase_T<USBDM::Ftm0Info>::sToiCallback
+1fffe010 V USBDM::FtmBase_T<USBDM::Ftm0Info>::sFaultCallback
+1fffe014 V USBDM::FtmBase_T<USBDM::Ftm1Info>::sToiCallback
+1fffe018 V USBDM::FtmBase_T<USBDM::Ftm1Info>::sFaultCallback
+1fffe01c V USBDM::PitBase_T<USBDM::PitInfo>::sCallbacks
+1fffe06c D _impure_ptr
+1fffe0d0 B __bss_start__
+1fffe0d0 D __data_end__
+1fffe0d0 B __START_BSS
+1fffe0ec B USBDM::console
+1fffe104 B USBDM::SystemMcgffClock
+1fffe108 B USBDM::SystemMcgOutClock
+1fffe10c B USBDM::SystemMcgFllClock
+1fffe110 B USBDM::SystemMcgPllClock
+1fffe114 B USBDM::SystemLpoClock
+1fffe118 B USBDM::Mcg::currentClockMode
+1fffe11c V USBDM::FtmBase_T<USBDM::Ftm0Info>::sChannelCallbacks
+1fffe120 V USBDM::FtmBase_T<USBDM::Ftm1Info>::sChannelCallbacks
+1fffe128 B USBDM::errorCode
+1fffe12c B __malloc_free_list
+1fffe130 B __lock___atexit_recursive_mutex
+1fffe131 B __lock___arc4random_mutex
+1fffe132 B __lock___env_recursive_mutex
+1fffe133 B __lock___sinit_recursive_mutex
+1fffe134 B __lock___malloc_recursive_mutex
+1fffe135 B __lock___at_quick_exit_mutex
+1fffe136 B __lock___dd_hash_mutex
+1fffe137 B __lock___tz_mutex
+1fffe138 B __lock___sfp_recursive_mutex
+1fffe13c B __bss_end__
+1fffe13c B __END_BSS
+1fffe13c B __heap_addr
+1fffe13c B __HeapBase
+1fffffff A __HeapLimit
+20001000 B __StackLimit
+20002000 B __stack
+20002000 B __StackTop

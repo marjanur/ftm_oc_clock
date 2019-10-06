@@ -1,0 +1,29 @@
+tute_5_q3.elf  :
+section              size        addr
+.interrupts          1040           0
+.text               32580        1040
+.ARM.exidx              8       33620
+.flash                  0       33628
+.mtb                    0   536862720
+.interrupts_ram         0   536862720
+.data                 228   536862720
+.noinit                 0   536862948
+.bss                  184   536862948
+.heap                4096   536863132
+.stack               8192   536870912
+.flexRAM                0   335544320
+.flexNVM                0   268435456
+.bitband           262144   570425344
+.ARM.attributes        42           0
+.comment              117           0
+.debug_info        865575           0
+.debug_abbrev       38608           0
+.debug_aranges       3576           0
+.debug_ranges        3320           0
+.debug_macro        76481           0
+.debug_line         60195           0
+.debug_str         452933           0
+.debug_frame        15860           0
+Total             1825179
+
+
